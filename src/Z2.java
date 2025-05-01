@@ -31,5 +31,3 @@ public class Z2 {
             for (;i>0;i=i/10){max=max-1;
                 for (long a=j;a>0;a=a/10){b=a%10;if (b==max) k=k*10+b;}} //Создаём последовательность по убыванию
                     System.out.println("Цифры в числе от большего к меньшему: "+k);}}
-
-//Тест
